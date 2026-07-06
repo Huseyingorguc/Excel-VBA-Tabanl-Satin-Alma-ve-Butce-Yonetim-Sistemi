@@ -1,5 +1,17 @@
 # Excel VBA Tabanlı Satın Alma ve Bütçe Yönetim Sistemi
+
+
+İÇİNDEKİLER
+1.	GİRİŞ	
+2.	AMAÇ	
+3.	SİSTEME GENEL BAKIŞ	
+4.	SİSTEM TANITIMI	
+4.1	Ekran Tasarımları	
+5.	SONUÇ	
+   
+
 1.	GİRİŞ
+
 Geliştirilen ERP modeli talep oluşturma, bütçe kontrolü, onay mekanizması ve satın alma süreçlerini tek bir sistemde toplayan bir yapı sunmaktadır. Modülün temel işlevi birimlerin yıllık bütçe limitlerini kontrol etmek aşmasını engellemektir ve limit üstü harcamaların üst kademeye onaya sunulmasıdır. Kurum içerisinde yer alan IT, İnsan Kaynakları ve diğer birimlerin ofis ihtiyaçlarını karşılamak amacıyla oluşturduğu satın alma taleplerinin dijital olarak alınması ve toplanması, bütçe kontrolünden geçirilmesi ve gerektiğinde de müdür onayına sunulması ve satın alma birimi tarafından işleme alınmasını amaçlar.
 Kullanılacak Hesaplamalar:
 Toplam Tutar = Adet x Birim Fiyat
@@ -12,11 +24,11 @@ Bir Talep Onay Bekliyor veya Tamamlandı Durumundayken aynı kullanıcı tarafı
 Her kullanıcının yapmış olduğu işlemler kaydedilecektir, harcama geçmişi görülebilecektir. Bu yapı sayesinde satın alma ve bütçe yönetimi süreçleri kontrollü, şeffaf ve izlenebilir bir sistem üzerinden yürütülmektedir.
 
  
-2.	AMAÇ
+3.	AMAÇ
 Bu modülün amacı, kurum içinde yer alan birimlerin satın alma ihtiyaçlarını düzenli ve kontrollü şekilde yönetmektir. Birimlerin yıllık bütçelerini takip edebilmesi ona göre harcama yapabilmesi. Harcama yaparken şirketin belirlediği bedel üzerinde bir harcama yapmalarına kısıt getirmek ve yıllık harcama bütçelerini aşmalarını engellemek. Üst yönetimin birimlerin bütçe ve taleplerini kontrol altında tutabilmesi ve gözlemleyebilmesi, Böylece hem mali disiplin sağlamakta hem de satın alma sürecinde kurumsal verimlilik sağlamak.
-3.	SİSTEME GENEL BAKIŞ
+4.	SİSTEME GENEL BAKIŞ
 Sistem kullanıcı giriş ekranı ile kullanıcının giriş yapması ile başlamaktadır. Kullanıcı giriş yaptığı rol ile belirli sayfalara erişebilir. Sayfalar ilk olarak birimlerin ofis ihtiyaçları için talep oluşturması ile başlamaktadır. Ürün adı, adet ve fiyat bilgisi girildiğinde sistem otomatik olarak tutarı hesaplar. Ardından talep edilen tutar, birimin kalan bütçesi ile karşılaştırılır, bütçe yeterliyse sistem devam eder. Sonrasında eğer talep edilen ürünün tutarı belirlenen eşik değerinden yüksek ise üst yönetime iletilir, üst yönetim talebi onayladığında ürün alımı onaylanır ve kalan bütçe güncellenir. Onaylanan talepler satın alma birimine düşer ve onay bekler sistem satın alındığına dair uyarılar verir ve bütçe otomatik güncellenir. Geçmiş satın alımlarda üst yönetim tarafından görüntülenebilmektedir. Ayrıca yönetici rolündeki kullanıcılar programdan bütçe yönetimi kısmı ile departmanların bütçelerini belirleyebiliyor.
-4.	SİSTEM TANITIMI 
+5.	SİSTEM TANITIMI 
 Sistem, Excel VBA kullanılarak geliştirilen yedi adet kullanıcı formu ve bu formlar aracılığıyla yönetilen veri sayfalarından oluşmaktadır. Sistem modüler bir yapıya sahip olup, her kullanıcı formu belirli bir işlevi yerine getirmektedir. Her kullanıcı belli formlara erişebilmektedir.
 4.1	Ekran Tasarımları
 
