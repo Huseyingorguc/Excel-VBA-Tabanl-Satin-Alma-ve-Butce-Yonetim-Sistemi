@@ -1,7 +1,7 @@
 # Excel VBA Tabanlı Satın Alma ve Bütçe Yönetim Sistemi
 
 
-İÇİNDEKİLER
+İÇİNDEKİLER:
 1.	GİRİŞ	
 2.	AMAÇ	
 3.	SİSTEME GENEL BAKIŞ	
@@ -11,7 +11,6 @@
    
 
 1.	GİRİŞ
-
 Geliştirilen ERP modeli talep oluşturma, bütçe kontrolü, onay mekanizması ve satın alma süreçlerini tek bir sistemde toplayan bir yapı sunmaktadır. Modülün temel işlevi birimlerin yıllık bütçe limitlerini kontrol etmek aşmasını engellemektir ve limit üstü harcamaların üst kademeye onaya sunulmasıdır. Kurum içerisinde yer alan IT, İnsan Kaynakları ve diğer birimlerin ofis ihtiyaçlarını karşılamak amacıyla oluşturduğu satın alma taleplerinin dijital olarak alınması ve toplanması, bütçe kontrolünden geçirilmesi ve gerektiğinde de müdür onayına sunulması ve satın alma birimi tarafından işleme alınmasını amaçlar.
 Kullanılacak Hesaplamalar:
 Toplam Tutar = Adet x Birim Fiyat
