@@ -2,12 +2,12 @@
 
 
 İÇİNDEKİLER:
-1.	GİRİŞ	
-2.	AMAÇ	
-3.	SİSTEME GENEL BAKIŞ	
-4.	SİSTEM TANITIMI	
-4.1	Ekran Tasarımları	
-5.	SONUÇ	
+1-GİRİŞ	
+2-AMAÇ	
+3-SİSTEME GENEL BAKIŞ	
+4-SİSTEM TANITIMI	
+4.1-Ekran Tasarımları	
+5-SONUÇ	
    
 
 1.	GİRİŞ
